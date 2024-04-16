@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "gilroy";
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 200%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.back{
+    width: 100%;
+    height: 100vh;
+}
+.back img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.top{
+    pointer-events: none;
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100vh;
+   width: 100%; 
+}
+.working_space{
+    position: relative;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+}
+#nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+#nav img{
+    height: 60px;
+}
+#nav a{
+    pointer-events: all;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+#nleft{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#nleft a{
+    font-family: "gilroy";
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+}
+#nright{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#nright a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-family: "gilroy";
+    font-size: 13px;
+}
+#nleft, #nright{
+    display: flex;
+    align-items: center;
+}
+.hero{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#hleft{
+    min-width: 50%;   
+}
+#hleft .elem{
+    height: 9vw;
+    overflow: hidden;
+    
+}
+#hleft .elem h1{
+    line-height: .9;   
+    font-family: "kajiro";
+    color: #fff;
+    font-weight: 100;
+    font-size: 11vw;
+}
+#hright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 20%;
+    color: #fff;
+}
+#hleft button{
+    pointer-events: all;
+    padding: 0.8vw 2vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+    font-family: "kajiro";
+}
+#hright #image_div{
+    width: 100%;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-image: url(https://images.unsplash.com/photo-1527203561188-dae1bc1a417f?auto=format&fit=crop&q=80&w=1915&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+#hright p{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+}
+#hright p:nth-child(3){
+    margin-bottom: 100px ;
+}
+footer{
+    width: 100vw;
+    height: 40vh;
+}
+footer .footer{
+    display: grid;
+}
